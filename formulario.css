@@ -1,0 +1,56 @@
+/*selector de etiqueta*/
+body{
+    text-align: center;
+}
+h1{
+    padding-top: 30px;
+}
+
+/*selector de clases*/
+.contenedor {
+    margin: auto;
+    background-color: aqua;
+    width: 900px;
+    height: 2000px;
+    border: 5px solid #000;
+}
+
+.nombre {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.nombre input{
+    width: 250px;
+    height: 26px;
+    margin: 20px;
+
+}
+
+.fechaNacimiento {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.fechaNacimiento input{
+width: 160px;
+margin-left: 20px;
+height: 25px;
+}
+
+.LugardeNacimiento{
+    font-weight: bold;
+    text-align: right;
+    margin-top: -140px;
+    padding-right: 226px;
+    margin-bottom: 100px;
+}
+.LugardeNacimiento select{
+    width: 156px;
+margin-left: 20opx;
+height: 26px;
+}
